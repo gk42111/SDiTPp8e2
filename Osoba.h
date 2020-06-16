@@ -8,5 +8,5 @@ public:
 	string imie;
 	string nazwisko;
 	int wiek;
-	friend ostream& operator<<(ostream wyjscie, const Osoba &s);
+	friend ostream& operator<<(ostream& wyjscie, const Osoba &s);
 };

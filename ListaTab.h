@@ -98,4 +98,4 @@ template<typename TYP> int ListaTab<TYP>::Previous(int P)
 			i = Next(i);
 		}
 		cout << endl;
-	}
+	}
